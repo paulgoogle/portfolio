@@ -1,0 +1,23 @@
+footer {
+  width: 100%;
+  background-color: rgb(128, 148, 250);
+  height: 100%;
+}
+
+footer p {
+  text-align: center;
+  padding: 30px;
+}
+
+.social {
+  text-align: center;
+}
+
+.fab {
+  color: #fff;
+  padding: 30px 30px 20px 30px;
+}
+
+.fab:hover {
+  background-color: rgb(128, 148, 250);
+}

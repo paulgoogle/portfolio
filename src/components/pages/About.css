@@ -1,0 +1,136 @@
+.about-title {
+  padding: 25px 0 20px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 2rem;
+}
+
+hr.about-hr {
+  width: 20%;
+}
+
+.about-container {
+  border-radius: 5px;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px 0 20px 0;
+  text-align: center;
+}
+
+.about-container > p {
+  margin-top: 70px;
+  font-size: 2rem;
+}
+
+.about-container ul {
+  margin: 10px auto;
+  width: 60%;
+  text-align: left;
+}
+
+.about-container ul li {
+  padding: 10px 0;
+  font-size: 1.8rem;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tech {
+  text-align: center;
+  margin: 50px auto 20px auto;
+}
+
+.tech-container {
+  max-width: 80%;
+  margin: 50px auto 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.html img,
+.javascript img,
+.react img,
+.wordpress img {
+  height: 150px;
+  margin: 5px;
+  width: 150px;
+}
+
+.css img {
+  height: 160px;
+  width: 150px;
+  position: relative;
+  top: -5px;
+  margin: 5px;
+}
+
+.faIcon {
+  position: relative;
+  left: 45%;
+  margin: 40px auto;
+  font-size: 80px;
+  color: rgb(128, 148, 250);
+}
+
+.faIcon2 {
+  left: 47%;
+}
+
+.faIcon3 {
+  left: 46%;
+}
+
+@media screen and (max-width: 810px) {
+  .tech-container {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+
+  .about-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .faIcon {
+    left: 40%;
+  }
+
+  .faIcon2 {
+    left: 45%;
+  }
+
+  .faIcon3 {
+    left: 44%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .faIcon {
+    left: 36%;
+  }
+
+  .faIcon2 {
+    left: 42%;
+  }
+
+  .faIcon3 {
+    left: 41%;
+  }
+
+  .about-container ul {
+    width: 80%;
+  }
+
+  .about-container ul li {
+    font-size: 1.4rem;
+  }
+}
